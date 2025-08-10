@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+  font-size: clamp(1rem, 1vw, 1.2rem);
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1.2rem;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  background: rgba(255, 255, 255, 0.01);
+  background-blend-mode: plus-lighter;
+  box-shadow: -11.15px -10.392px 48px -12px rgba(0, 0, 0, 0.15),
+    -1.858px -1.732px 12px -8px rgba(0, 0, 0, 0.15),
+    2.49px 2.321px 10.72px 0 rgba(255, 255, 255, 0.08) inset,
+    1.561px 1.455px 5.36px 0 rgba(255, 255, 255, 0.08) inset;
+  backdrop-filter: blur(14.239999771118164px);
+}
+
+.header-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.header-links a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
