@@ -1,6 +1,7 @@
 import SplitTextComp from "@/app/bits/splitText";
 import styles from "../../page.module.css";
 import HeaderHome from "@/app/components/LandingHeader";
+import CardGenreLanding from "@/app/components/CardGenreLanding";
 
 const Landing = () => {
   return (
@@ -20,6 +21,9 @@ const Landing = () => {
           rootMargin="-100px"
           textAlign="center"
         />
+
+
+        <CardGenreLanding />
       </main>
     </div>
   );
