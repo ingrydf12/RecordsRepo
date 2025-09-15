@@ -51,6 +51,25 @@
   box-shadow: text-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.cardsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+  perspective: 1000px;
+}
+
+@keyframes fanIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) rotate(0deg) translateY(50px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
