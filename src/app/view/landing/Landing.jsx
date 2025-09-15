@@ -4,6 +4,18 @@ import HeaderHome from "@/app/components/LandingHeader";
 import CardGenreLanding from "@/app/components/CardGenreLanding";
 
 const Landing = () => {
+  const genresMusicExample = [
+    { genre: "Indie", imageUrl: "" },
+    { genre: "Post-Hardcore", imageUrl: "" },
+    { genre: "MPB", imageUrl: "" },
+    { genre: "Rock", imageUrl: "" },
+    { genre: "Lofi", imageUrl: "" },
+  ];
+
+  const middleIndex = Math.floor(genresMusicExample.length / 2);
+  const ANGLE_STEP = 12;
+  const ARC_HEIGHT = 40;
+
   return (
     <div className={styles.page}>
       <HeaderHome />
@@ -22,8 +34,28 @@ const Landing = () => {
           textAlign="center"
         />
 
+        <div className={styles.cardsWrapper}>
+          {genresMusicExample.map((g, i) => {
+            const offset = i - middleIndex;
+            const maxOffset = middleIndex || 1;
+            const normalizedOffset = offset / maxOffset;
 
-        <CardGenreLanding />
+            const angle = offset * (ANGLE_STEP * 1.5);
+            const translateX = normalizedOffset - (offset * 5);
+            const translateY = Math.cos(normalizedOffset * Math.PI / 2) * ARC_HEIGHT;
+
+            return (
+              <CardGenreLanding
+                key={i}
+                genre={g.genre}
+                imageUrl={g.imageUrl}
+                style={{
+                  transform: `translateX(${translateX}px) translateY(${-translateY}px) rotate(${angle}deg)`,
+                }}
+              />
+            );
+          })}
+        </div>
       </main>
     </div>
   );
