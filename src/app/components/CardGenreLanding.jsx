@@ -1,11 +1,13 @@
 import "../styles/CardGenreLanding.css";
-import "../animations/microBalance.css";
 
-const CardGenreLanding = ({ genre, imageUrl }) => {
+const CardGenreLanding = ({ genre, imageUrl, style }) => {
   return (
     <div
       className="card-genre-container"
-      style={{ backgroundImage: `url(${imageUrl})` }}
+      style={{
+        backgroundImage: `url(${imageUrl})`,
+        ...style,
+      }}
     >
       <div className="halftone-genre-effect">
         <h2 className="title-genre">{genre}</h2>
