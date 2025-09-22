@@ -9,13 +9,13 @@ const HeaderHome = () => {
       <nav className="nav">
         <ul className="header-links">
           <li>
-            <a href="#features">Sobre</a>
+            <a href="#about">Sobre</a>
           </li>
           <li>
-            <a href="#pricing">Explore</a>
+            <a href="#discovery">Explore</a>
           </li>
           <li>
-            <a href="#contact">Contribua</a>
+            <a href="#contribue">Contribua</a>
           </li>
         </ul>
       </nav>
