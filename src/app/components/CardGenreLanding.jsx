@@ -5,7 +5,7 @@ const CardGenreLanding = ({ genre, imageUrl, style }) => {
     <div
       className="card-genre-container"
       style={{
-        backgroundImage: `url(${imageUrl})`,
+        "--bg-image": `url(${imageUrl})`,
         ...style,
       }}
     >
