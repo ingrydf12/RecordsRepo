@@ -22,7 +22,7 @@ const Landing = () => {
       <HeaderHome />
       <main className={styles.main}>
         <SplitTextComp
-          text="Explore diversos gêneros musicais e brasileiros"
+          text="Explore diversos gêneros musicais brasileiros"
           className={styles.title}
           delay={50}
           duration={0.3}
