@@ -39,6 +39,19 @@ Music streaming platform focused on independent music, especially local/nordesti
 | React | Python ou Javascript (a decidir) |
 | ReactBits (biblioteca) |  |
 
+
+# Instalação do projeto
+
+[PT-BR]
+1. Clone este repositório com `git clone https://github.com/ingrydf12/RecordsRepo` utilizando terminal ou IDE.
+2. Rode o comando `npm install` para instalar as dependências presentes no package.json
+3. Em modo de desenvolvimento, rode o projeto com `npm run dev`, ou caso queira rodar o build otimizado, utilize `npm run build` e `npm run preview`.
+
+[EN]
+1. Clone this repository with `git clone https://github.com/ingrydf12/RecordsRepo` using terminal or IDE.
+2. Run the `npm install` command to install the dependencies present in package.json
+3. In development mode, run the project with `npm run dev`, or if you want to run the optimized build, use `npm run build` and `npm run preview`.
+
 # Contribue
 
 If you are begginer and want to contribue to this project, you can see this [guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-as-a-beginner/) from freeCodeCamp.
