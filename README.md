@@ -2,10 +2,10 @@
 
 1. [Sobre / About](#about)
 2. [Síntese / Resume](#synthesis)
-3. [Requisitos](#requisitos)
-4. [Detalhes de gestão](#quadro-kanban)
-5. [Instruções de instalação](#como-rodar-este-projeto)
-6. [Contribua](#contribue)
+3. [Tecnologias](#tecnologias)
+4. [Instalação do projeto](#instalacao-do-projeto)
+5. [Contribua](#contribue)
+6. [Design in production](#design-docs)
 
 # RecordsRepo
 Explore Brazilian indie songs, different genres and expand your musical repertoire.
@@ -57,3 +57,11 @@ Music streaming platform focused on independent music, especially local/nordesti
 If you are begginer and want to contribue to this project, you can see this [guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-as-a-beginner/) from freeCodeCamp.
 
 In [issue tab](https://github.com/ingrydf12/RecordsRepo/issues), you can check tasks (bugs, features, or others) that have been viewed, but you can also add new ones.
+
+## Design Docs
+
+It still in progress.
+
+<img src="https://github.com/ingrydf12/RecordsRepo/blob/docs/project/docs/landing.PNG?raw=true" width="400">
+Landing page (initial ideas)
+- **Status:** In progress (80%)
