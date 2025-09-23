@@ -27,10 +27,10 @@ const Landing = () => {
           delay={50}
           duration={0.3}
           ease="power3.out"
-          splitType="chars"
+          splitType="words"
           from={{ opacity: 0, y: 40 }}
           to={{ opacity: 1, y: 0 }}
-          threshold={0.2}
+          threshold={0.3}
           rootMargin="-100px"
           textAlign="center"
         />
