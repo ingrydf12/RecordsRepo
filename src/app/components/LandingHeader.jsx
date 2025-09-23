@@ -5,16 +5,17 @@ import Link from "next/link";
 const HeaderHome = () => {
   return (
     <header className="header">
-      <Link href="/">
+      <Link href="/" className="logotipo">
         <Image
-          src="/logotipo.svg"
+          src="/logoAberto.png"
           alt="Records Repository Icon"
           width={150}
           height={150}
           className="logo"
         />
+        <p>RecordsRepo</p>
       </Link>
-      
+
       <nav className="nav">
         <ul className="header-links">
           <li>
