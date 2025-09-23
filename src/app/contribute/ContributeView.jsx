@@ -3,12 +3,12 @@ import "./Contribute.css";
 
 export default function Contribute() {
   return (
-    <div className="page">
+    <div className="contribute-page-container">
       <HeaderHome />
 
       <main className="contribute-page">
         <h1>Contribua com o projeto</h1>
-        <p>
+        <p className="paragraph-contribute">
           Este é um projeto open source. Você pode contribuir enviando
           melhorias, reportando bugs ou sugerindo novas funcionalidades.
         </p>

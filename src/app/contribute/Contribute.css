@@ -1,0 +1,52 @@
+.contribute-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #320a6b, #100e65, #fed16a);
+  padding: 1rem 0.5rem;
+}
+
+.contribute-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contribute-page h1 {
+  font-size: clamp(2rem, 4vw, 4rem);
+  font-weight: 500;
+}
+
+.paragraph-contribute {
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+  line-height: 1.6;
+}
+
+.btn-contribute {
+  font-family: 'Manrope', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  min-width: 200px;
+  max-width: 400px;
+  background-color: #fed16a;
+  color: black;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+              background-color 0.3s ease;
+}
+
+.btn-contribute:hover {
+  transform: scale(1.05);
+  background-color: #a3893b;
+}
