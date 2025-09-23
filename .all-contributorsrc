@@ -1,0 +1,15 @@
+{
+  "projectName": "RecordsRepo",
+  "projectOwner": "ingrydf12",
+  "repoType": "github",
+  "repoHost": "Github",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 200,
+  "commit": true,
+  "commitConvention": "eslint",
+  "contributors": [],
+  "contributorsPerLine": 7,
+  "linkToUsage": false
+}
