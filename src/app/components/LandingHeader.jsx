@@ -1,11 +1,20 @@
 import Image from "next/image";
-import "../styles/HeaderLanding.css"
+import "../styles/HeaderLanding.css";
+import Link from "next/link";
 
 const HeaderHome = () => {
   return (
     <header className="header">
-      <Image src="/logotipo.svg" alt="Records Repository Icon" width={150} height={150} className="logo" />
-
+      <Link href="/">
+        <Image
+          src="/logotipo.svg"
+          alt="Records Repository Icon"
+          width={150}
+          height={150}
+          className="logo"
+        />
+      </Link>
+      
       <nav className="nav">
         <ul className="header-links">
           <li>
@@ -15,7 +24,7 @@ const HeaderHome = () => {
             <a href="#discovery">Explore</a>
           </li>
           <li>
-            <a href="#contribue">Contribua</a>
+            <Link href="/contribute">Contribuir</Link>
           </li>
         </ul>
       </nav>
