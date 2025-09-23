@@ -10,8 +10,8 @@
   --gradient-b: #065084;
   --gradient-c: #FED16A;
 
-  display: grid;
-  grid-template-rows: 20px 1fr 20px;
+  display: flex;
+  flex-direction: column;
   min-height: 100svh;
   padding: 80px;
   gap: 64px;
