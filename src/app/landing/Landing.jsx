@@ -1,5 +1,5 @@
-import SplitTextComp from "@/app/bits/splitText";
-import styles from "../page.module.css";
+import SplitTextComp from "@/app/bits/SplitText";
+import styles from "../../page.module.css";
 import HeaderHome from "@/app/components/LandingHeader";
 import CardGenreLanding from "@/app/components/CardGenreLanding";
 
@@ -22,7 +22,7 @@ const Landing = () => {
       <HeaderHome />
       <main className={styles.main}>
         <SplitTextComp
-          text="Explore diversos gêneros musicais e brasileiros"
+          text="Explore diversos gêneros musicais brasileiros"
           className={styles.title}
           delay={50}
           duration={0.3}
