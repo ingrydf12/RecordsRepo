@@ -9,7 +9,18 @@
   "imageSize": 200,
   "commit": true,
   "commitConvention": "eslint",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "JwhnLwnnwn",
+      "name": "JwhnLwnnwn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206629409?v=4",
+      "profile": "https://github.com/JwhnLwnnwn",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
-  "linkToUsage": false
+  "linkToUsage": false,
+  "commitType": "docs"
 }
