@@ -18,6 +18,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "Tonnykimanthi",
+      "name": "Tonny Kimanthi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162420734?v=4",
+      "profile": "https://my-portfolio-theta-seven-16.vercel.app/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

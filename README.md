@@ -72,7 +72,7 @@ Landing page (initial ideas)
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Um agradecimento especial a quem contribuiu com o projeto :) ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -83,6 +83,7 @@ Um agradecimento especial a quem contribuiu com o projeto :) ([emoji key](https:
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/JwhnLwnnwn"><img src="https://avatars.githubusercontent.com/u/206629409?v=4?s=200" width="200px;" alt="JwhnLwnnwn"/><br /><sub><b>JwhnLwnnwn</b></sub></a><br /><a href="#design-JwhnLwnnwn" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://my-portfolio-theta-seven-16.vercel.app/"><img src="https://avatars.githubusercontent.com/u/162420734?v=4?s=200" width="200px;" alt="Tonny Kimanthi"/><br /><sub><b>Tonny Kimanthi</b></sub></a><br /><a href="Github/ingrydf12/RecordsRepo/commits?author=Tonnykimanthi" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
