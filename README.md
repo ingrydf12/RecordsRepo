@@ -6,6 +6,7 @@
 4. [Instalação do projeto](#instalacao-do-projeto)
 5. [Contribua](#contribue)
 6. [Design in production](#design-docs)
+7. [Contributors](#contributors)
 
 # RecordsRepo
 Explore Brazilian indie songs, different genres and expand your musical repertoire.
@@ -64,4 +65,31 @@ It still in progress.
 
 <img src="https://github.com/ingrydf12/RecordsRepo/blob/docs/project/docs/landing.PNG?raw=true" width="400">
 Landing page (initial ideas)
+
 - **Status:** In progress (80%)
+
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+Um agradecimento especial a quem contribuiu com o projeto :) ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JwhnLwnnwn"><img src="https://avatars.githubusercontent.com/u/206629409?v=4?s=200" width="200px;" alt="JwhnLwnnwn"/><br /><sub><b>JwhnLwnnwn</b></sub></a><br /><a href="#design-JwhnLwnnwn" title="Design">🎨</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.

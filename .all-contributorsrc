@@ -1,0 +1,26 @@
+{
+  "projectName": "RecordsRepo",
+  "projectOwner": "ingrydf12",
+  "repoType": "github",
+  "repoHost": "Github",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 200,
+  "commit": true,
+  "commitConvention": "eslint",
+  "contributors": [
+    {
+      "login": "JwhnLwnnwn",
+      "name": "JwhnLwnnwn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206629409?v=4",
+      "profile": "https://github.com/JwhnLwnnwn",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": false,
+  "commitType": "docs"
+}
